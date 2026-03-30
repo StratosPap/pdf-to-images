@@ -61,13 +61,7 @@ python script.py input_folder
 ### With custom output folder:
 
 ```
-python script.py input_folder -o output_images
-```
-
-### Example (Windows):
-
-```
-py script.py "C:\Users\Stratos\Test\pdfs" -o results
+python pdf_to_jpg_converter.py input_folder -o output_images
 ```
 
 > ⚠️ If your folder name contains spaces, wrap it in quotes.
@@ -136,7 +130,7 @@ Each image will be:
 ✔ Use quotes:
 
 ```
-python script.py "my folder"
+python pdf_to_jpg_converter.py "my folder"
 ```
 
 ---
